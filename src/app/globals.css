@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/*
+ * Identidade EcoCrédito Recife.
+ * O verde pistache (#94C044) é usado só como preenchimento; para TEXTO verde
+ * usamos brand-strong, que passa no contraste AA sobre fundo claro.
+ */
+@theme {
+  --color-brand: #94c044;
+  --color-brand-strong: #3f6b12;
+  --color-brand-soft: #e8f3d3;
+  --color-ink: #23310d;
+  --color-ink-muted: #5b6a48;
+  --color-canvas: #f7faf2;
+  --color-line: #dfe7d0;
+
+  --color-st-nova: #8a5a00;
+  --color-st-nova-bg: #fdf1d6;
+  --color-st-triada: #1d4f91;
+  --color-st-triada-bg: #dfeafb;
+  --color-st-exec: #5b3aa0;
+  --color-st-exec-bg: #ebe4fa;
+  --color-st-ok: #2f6b17;
+  --color-st-ok-bg: #dff1d3;
+  --color-st-no: #5b5b5b;
+  --color-st-no-bg: #ececec;
+  --color-danger: #a12a1f;
+  --color-danger-bg: #fbe4e1;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-sans);
+  min-height: 100dvh;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-brand-strong);
+  outline-offset: 2px;
+}
+
+/* Leaflet precisa de altura explícita e não deve herdar o z-index do layout. */
+.leaflet-container {
+  font-family: var(--font-sans);
+  z-index: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

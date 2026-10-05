@@ -1,0 +1,3500 @@
+{
+ "license": "Open Data Commons Open Database License (ODbL)",
+ "attribution": "Portal de Dados Abertos da Prefeitura do Recife (dados.recife.pe.gov.br)",
+ "generatedAt": "2026-09-19",
+ "source": "https://dados.recife.pe.gov.br/dataset/b666164e-b813-4ab7-9842-f3bbdcdda07e/resource/bab62397-be40-436a-bc9c-fe7c7bacc0c6/download/pontos-de-coleta.csv",
+ "points": [
+  {
+   "id": "pt-1",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "São José",
+   "address": "Avenida Sul, s/n",
+   "lat": -8.07563,
+   "lng": -34.89162,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-2",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "Dois Unidos",
+   "address": "Av. Chagas Ferreira, 601",
+   "lat": -8.00505,
+   "lng": -34.91225,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-3",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "Torre",
+   "address": "Rua Eliezer Olímpio de Moura, 100",
+   "lat": -8.04443,
+   "lng": -34.91299,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-4",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "São José",
+   "address": "Travessa do Gusmão, 178",
+   "lat": -8.07182,
+   "lng": -34.88673,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-5",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "Guabiraba",
+   "address": "Av. Padre Mosca de Carvalho, s/n",
+   "lat": -7.96426,
+   "lng": -34.9246,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-6",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "Arruda",
+   "address": "Avenida Professor José dos Anjos, s/n",
+   "lat": -8.02027,
+   "lng": -34.8746,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-7",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "São José",
+   "address": "Rua Pacatuba, s/n",
+   "lat": -8.07657,
+   "lng": -34.89754,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-8",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "São José",
+   "address": "Rua Oscar de Melo, s/n",
+   "lat": -8.07797,
+   "lng": -34.89916,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-9",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "Imbiribeira",
+   "address": "R. Antônio Cardoso da Fonte, 483",
+   "lat": -8.09768,
+   "lng": -34.91959,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-10",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "Ibura",
+   "address": "Rua Rio Uma, 150",
+   "lat": -8.1147,
+   "lng": -34.93164,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-11",
+   "kind": "ECOESTACAO",
+   "name": "Ecoestação Arruda",
+   "neighborhood": "Arruda",
+   "address": "Av. Prof. José dos Anjos",
+   "lat": -8.02016,
+   "lng": -34.87442,
+   "accepts": [
+    "RECICLAVEL",
+    "ELETRONICO",
+    "ENTULHO",
+    "VOLUMOSO"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis, Resíduos da Construção, Móveis e Eletrodomésticos"
+   ]
+  },
+  {
+   "id": "pt-12",
+   "kind": "ECOESTACAO",
+   "name": "Ecoestação Campo Grande",
+   "neighborhood": "Campo Grande",
+   "address": "Av. Agamenon Magalhães com Rua Odorico Mendes",
+   "lat": -8.03929,
+   "lng": -34.87838,
+   "accepts": [
+    "RECICLAVEL",
+    "ELETRONICO",
+    "ENTULHO",
+    "VOLUMOSO",
+    "PODA",
+    "ORGANICO"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis, Resíduos da Construção, Móveis e Eletrodomésticos",
+    "lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas"
+   ]
+  },
+  {
+   "id": "pt-13",
+   "kind": "ECOESTACAO",
+   "name": "Ecoestação Cohab",
+   "neighborhood": "Cohab",
+   "address": "Av. Rio Largo com Avenida Santos",
+   "lat": -8.11528,
+   "lng": -34.95345,
+   "accepts": [
+    "RECICLAVEL",
+    "ELETRONICO",
+    "ENTULHO",
+    "VOLUMOSO",
+    "PODA",
+    "ORGANICO"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis, Resíduos da Construção, Móveis e Eletrodomésticos",
+    "lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas"
+   ]
+  },
+  {
+   "id": "pt-14",
+   "kind": "ECOESTACAO",
+   "name": "Ecoestação Ibura",
+   "neighborhood": "Ibura",
+   "address": "Rua Rio Tapado",
+   "lat": -8.11676,
+   "lng": -34.94322,
+   "accepts": [
+    "RECICLAVEL",
+    "ELETRONICO",
+    "ENTULHO",
+    "VOLUMOSO"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis, Resíduos da Construção, Móveis e Eletrodomésticos",
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-15",
+   "kind": "ECOESTACAO",
+   "name": "Ecoestação Imbiribeira",
+   "neighborhood": "Imbiribeira",
+   "address": "Av. Mascarenhas de Morais",
+   "lat": -8.12321,
+   "lng": -34.9147,
+   "accepts": [
+    "RECICLAVEL",
+    "ELETRONICO",
+    "ENTULHO",
+    "VOLUMOSO"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis, Resíduos da Construção, Móveis e Eletrodomésticos"
+   ]
+  },
+  {
+   "id": "pt-16",
+   "kind": "ECOESTACAO",
+   "name": "Ecoestação Torre",
+   "neighborhood": "Torre",
+   "address": "Rua Ciclovia República da Argélia",
+   "lat": -8.04417,
+   "lng": -34.91623,
+   "accepts": [
+    "RECICLAVEL",
+    "ELETRONICO",
+    "ENTULHO",
+    "VOLUMOSO"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis, Resíduos da Construção, Móveis e Eletrodomésticos"
+   ]
+  },
+  {
+   "id": "pt-17",
+   "kind": "ECOESTACAO",
+   "name": "Ecoestação Torrões",
+   "neighborhood": "Torrões",
+   "address": "Rua Maestro Jones Johnsson",
+   "lat": -8.05774,
+   "lng": -34.93563,
+   "accepts": [
+    "RECICLAVEL",
+    "ELETRONICO",
+    "ENTULHO",
+    "VOLUMOSO",
+    "PODA",
+    "ORGANICO"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis, Resíduos da Construção, Móveis e Eletrodomésticos",
+    "lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas"
+   ]
+  },
+  {
+   "id": "pt-18",
+   "kind": "ECOESTACAO",
+   "name": "Ecoestação Totó",
+   "neighborhood": "Totó",
+   "address": "Rua Onze de Agosto",
+   "lat": -8.07767,
+   "lng": -34.97171,
+   "accepts": [
+    "RECICLAVEL",
+    "ELETRONICO",
+    "ENTULHO",
+    "VOLUMOSO",
+    "PODA",
+    "ORGANICO"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis, Resíduos da Construção, Móveis e Eletrodomésticos",
+    "lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas"
+   ]
+  },
+  {
+   "id": "pt-19",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Santo Amaro",
+   "address": "R. da Aurora, s/n - Santo Amaro, Recife – PE",
+   "lat": -8.05484,
+   "lng": -34.87691,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-20",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Recife",
+   "address": "Av. Rio Branco, 261- Recife, PE",
+   "lat": -8.06235,
+   "lng": -34.87369,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-21",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Recife",
+   "address": "Av. Alfredo Lisboa, 11 - Bairro do Recife, Recife",
+   "lat": -8.06336,
+   "lng": -34.87145,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-22",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Santo Antônio",
+   "address": "Praça da Independência - Santo Antônio, Recife",
+   "lat": -8.06406,
+   "lng": -34.87838,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-23",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Santo Antônio",
+   "address": "R. Princesa Isabel, 405 - Santo Amaro, Recife",
+   "lat": -8.05805,
+   "lng": -34.88224,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-24",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Ilha do Leite",
+   "address": "Praça Miguel de Cervantes - Ilha do Leite, Recife",
+   "lat": -8.06634,
+   "lng": -34.89337,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-25",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Boa Vista",
+   "address": "Av. Lins Petit, 3 - Boa Vista, Recife",
+   "lat": -8.06048,
+   "lng": -34.8949,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-26",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Recife",
+   "address": "Cais do Apolo, 905 - Recife, PE",
+   "lat": -8.05472,
+   "lng": -34.8723,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-27",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Boa Vista",
+   "address": "Av. da Saudade, 28 - Boa Vista",
+   "lat": -8.05055,
+   "lng": -34.88339,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-28",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Boa Vista",
+   "address": "Praça Parque Amorim - Capunga - Boa Vista, Recife",
+   "lat": -8.05191,
+   "lng": -34.89505,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-29",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Recife",
+   "address": "Praça do Arsenal da Marinha, 35 Sala 803 – Recife",
+   "lat": -8.06143,
+   "lng": -34.87107,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-30",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Recife",
+   "address": "Av. Rio Branco, 155 A – Recife",
+   "lat": -8.06264,
+   "lng": -34.87288,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-31",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Soledade",
+   "address": "R. João Fernandes Viêira, 160 - Soledade, Recife",
+   "lat": -8.05454,
+   "lng": -34.89133,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-32",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Hipódromo",
+   "address": "R. Carlos Fernandes, 264 - Hipódromo, Recife",
+   "lat": -8.03261,
+   "lng": -34.88643,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-33",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Santo Amaro",
+   "address": "Av. Gov. Agamenon Magalhães, 1956 - Santo Amaro, Recife",
+   "lat": -8.03921,
+   "lng": -34.87827,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-34",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Peixinhos",
+   "address": "Av. Prof. José dos Anjos, 36 - Peixinhos, Recife",
+   "lat": -8.02032,
+   "lng": -34.87448,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-35",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Encruzilhada",
+   "address": "R. Amaro Coutinho, 675 - Encruzilhada, Recife",
+   "lat": -8.03291,
+   "lng": -34.89608,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-36",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Casa Forte",
+   "address": "Av. Dezessete de Agosto, 1386 - Casa Forte, Recife",
+   "lat": -8.03576,
+   "lng": -34.9202,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-37",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Monteiro",
+   "address": "Av. Dezessete de Agosto, 2702 - Monteiro, Recife",
+   "lat": -8.02794,
+   "lng": -34.92823,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-38",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Poço da Panela",
+   "address": "Estr. Real do Poço, 494 - Poço da Panela, Recife",
+   "lat": -8.03645,
+   "lng": -34.92475,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-39",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Morro da Conceição",
+   "address": "Estrada do Morro da Conceição, 442 - Morro da Conceição, Recife",
+   "lat": -8.01932,
+   "lng": -34.91472,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-40",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Graças",
+   "address": "Av. Rui Barbosa, 1899 - Graças, Recife",
+   "lat": -8.03778,
+   "lng": -34.90577,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-41",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Parnamirim",
+   "address": "Av. Dezessete de Agosto, 177 - Parnamirim, Recife",
+   "lat": -8.03418,
+   "lng": -34.91128,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-42",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Jaqueira",
+   "address": "R. do Futuro, 1100 - Jaqueira, Recife",
+   "lat": -8.03624,
+   "lng": -34.90383,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-43",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Graças",
+   "address": "Rua Senador Alberto Paiva, 71-115 - Graças, Recife - PE, 52050-260 - Graças, Recife",
+   "lat": -8.04384,
+   "lng": -34.90142,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-44",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Jaqueira",
+   "address": "Rua Hoel Sette, 109 - Jaqueira, Recife",
+   "lat": -8.03624,
+   "lng": -34.90291,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-45",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Cordeiro",
+   "address": "Praça do Arraial Novo do Bom Jesus - Cordeiro - Cordeiro, Recife",
+   "lat": -8.0571,
+   "lng": -34.93056,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-46",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Torrões",
+   "address": "R. Tumiritinga, 115 - Torrões, Recife",
+   "lat": -8.05769,
+   "lng": -34.93529,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-47",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Iputinga",
+   "address": "R. Ciclovia República da Argélia, 10 - Iputinga, Recife",
+   "lat": -8.04414,
+   "lng": -34.91622,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-48",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Iputinga",
+   "address": "Praça Bom Pastor, 1308 - Iputinga, Recife",
+   "lat": -8.04848,
+   "lng": -34.9402,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-49",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Engenho do Meio",
+   "address": "R. Antônio Curado, 352-428 - Engenho do Meio, Recife - PE, 50730-180 - Engenho do Meio, Recife",
+   "lat": -8.0573,
+   "lng": -34.94214,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-50",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Ilha do Retiro",
+   "address": "Av. Sport Clube do Recife, 830 - Ilha do Retiro, Recife",
+   "lat": -8.06118,
+   "lng": -34.90286,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-51",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Madalena",
+   "address": "Av. Beira Rio, 1008 - Madalena, Recife",
+   "lat": -8.04685,
+   "lng": -34.90412,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-52",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Madalena",
+   "address": "R. Castro Leão, 299 - Madalena, Recife",
+   "lat": -8.05436,
+   "lng": -34.90899,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-53",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Torre",
+   "address": "Praça Professor Barreto Campelo, 1183 - Torre, Recife",
+   "lat": -8.04705,
+   "lng": -34.91382,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-54",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Várzea",
+   "address": "Estação Riacho Cavouco - Sentido Subúrbio - Várzea, Recife",
+   "lat": -8.03667,
+   "lng": -34.94587,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-55",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Iputinga",
+   "address": "R. São Mateus, 6 - Iputinga, Recife",
+   "lat": -8.02914,
+   "lng": -34.93414,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-56",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Jiquiá",
+   "address": "Av. Gen. San Martin, 1862 - Jiquiá, Recife",
+   "lat": -8.06681,
+   "lng": -34.92758,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-57",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Curado",
+   "address": "R. Nelsom de Sena, 5 - Curado, Recife",
+   "lat": -8.07763,
+   "lng": -34.97188,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-58",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Tejipio",
+   "address": "Av. Liberdade, 65 - Tejipio, Recife",
+   "lat": -8.08215,
+   "lng": -34.96027,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-59",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Barro",
+   "address": "R. Cap. Ponciano, 201 - Barro, Recife",
+   "lat": -8.09526,
+   "lng": -34.9436,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-60",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Areias",
+   "address": "R. Álvaro Fragoso, 216 - Areias, Recife",
+   "lat": -8.09606,
+   "lng": -34.93172,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-61",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Jardim São Paulo",
+   "address": "Av. Central, 5916 - Jardim São Paulo, Recife",
+   "lat": -8.08576,
+   "lng": -34.93673,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-62",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Imbiribeira",
+   "address": "Av. Mascarenhas de Moraes, 533 - Imbiribeira, Recife",
+   "lat": -8.08719,
+   "lng": -34.90747,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-63",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Imbiribeira",
+   "address": "R. Nova Verona, 101 - Imbiribeira, Recife",
+   "lat": -8.09654,
+   "lng": -34.91565,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-64",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Imbiribeira",
+   "address": "Av. Pres. Dutra, 50 - Imbiribeira, Recife",
+   "lat": -8.12341,
+   "lng": -34.91524,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-65",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Imbiribeira",
+   "address": "Av. Mascarenhas de Moraes, 203 - Imbiribeira, Recife",
+   "lat": -8.13401,
+   "lng": -34.91669,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-66",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Boa Viagem",
+   "address": "Av. Boa Viagem, 4862 - Boa Viagem, Recife",
+   "lat": -8.13188,
+   "lng": -34.90014,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-67",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Boa Viagem",
+   "address": "First Garden of Boa Viagem - Av. Boa Viagem, 1156-1220 - Boa Viagem, Recife",
+   "lat": -8.10147,
+   "lng": -34.88532,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-68",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Boa Viagem",
+   "address": "R. Barão de Souza Leão, 131 - Boa Viagem, Recife",
+   "lat": -8.13215,
+   "lng": -34.9012,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-69",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Boa Viagem",
+   "address": "Av. Boa Viagem, 3196 - Boa Viagem, Recife",
+   "lat": -8.10514,
+   "lng": -34.88702,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-70",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Imbiribeira",
+   "address": "R. Quatorze, 216 - Imbiribeira, Recife",
+   "lat": -8.09958,
+   "lng": -34.90874,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-71",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Pina",
+   "address": "Av. Antônio de Goes, 1050 - Pina, Recife",
+   "lat": -8.08432,
+   "lng": -34.88755,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-72",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Cohab",
+   "address": "Av. Santos, 15 - COHAB, Recife",
+   "lat": -8.11528,
+   "lng": -34.95355,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-73",
+   "kind": "PEV",
+   "name": "PEV",
+   "neighborhood": "Ibura",
+   "address": "R. Rio Tapado, 39 - Ibura, Recife",
+   "lat": -8.11677,
+   "lng": -34.94338,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "Materiais Recicláveis"
+   ]
+  },
+  {
+   "id": "pt-74",
+   "kind": "OUTRO",
+   "name": "Prefeitura do Recife",
+   "neighborhood": "Recife",
+   "address": "Av. Cais do Apolo, Prefeitura do Recife (área interna )",
+   "lat": -8.05473,
+   "lng": -34.87208,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-75",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Recife",
+   "address": "Rua do Bom Jesus, Em frente ao Museu Arq. e Pça do Arsenal",
+   "lat": -8.06147,
+   "lng": -34.87104,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-76",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Recife",
+   "address": "Av. Marques de Olinda, Calçada da cimento nassau( em frete ao marco zero)",
+   "lat": -8.06328,
+   "lng": -34.87157,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-77",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Recife",
+   "address": "Av. Rio Branco, Calçada do Banco do Brasil",
+   "lat": -8.06233,
+   "lng": -34.87367,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-78",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Santo Antônio",
+   "address": "Avenida Dantas Barreto, Calçada da Praça da Independência",
+   "lat": -8.06409,
+   "lng": -34.87848,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-79",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "São José",
+   "address": "Rua Floriano Peixoto, Dentro da Estação de Metrô",
+   "lat": -8.06856,
+   "lng": -34.88447,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-80",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Santo Antônio",
+   "address": "Rua da Aurora, Calçada em frente à quadra, lado oposto",
+   "lat": -8.05462,
+   "lng": -34.87674,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-81",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Santo Amaro",
+   "address": "Rua Princesa Isabel, Calçada do Parque 13 de Maio",
+   "lat": -8.05804,
+   "lng": -34.88216,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,pastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-82",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Ilha do Leite",
+   "address": "Praça Miguel Cervantes, Primeira Ilha",
+   "lat": -8.06541,
+   "lng": -34.8932,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-83",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Paissandu",
+   "address": "Avenida Lins Petit - Praça Chora Menino, Em frente da Praça Chora Menino",
+   "lat": -8.06044,
+   "lng": -34.89488,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,pastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-84",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Derby",
+   "address": "Av. Agamenon Magalhães, Praça do Derby",
+   "lat": -8.05632,
+   "lng": -34.89825,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-85",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Santo Amaro",
+   "address": "Av. Gov. Agamenon Magalhães, Praça do Parque Amorim",
+   "lat": -8.05193,
+   "lng": -34.89503,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-86",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Hipódromo",
+   "address": "Rua Carlos Fernandes, Na Praça do Hipódromo",
+   "lat": -8.03259,
+   "lng": -34.88641,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-87",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Rosarinho",
+   "address": "Av. Santos Dumont, Praça do Rosarinho",
+   "lat": -8.03285,
+   "lng": -34.89619,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-88",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Campo Grande",
+   "address": "Av. Professor José dos Anjos, EcoEstação Arruda : Em frente da ponte do Rio Beberibe",
+   "lat": -8.02043,
+   "lng": -34.87449,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-89",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Graças",
+   "address": "Rua Alberto Paiva, em frente ao Colégio São Luis",
+   "lat": -8.04383,
+   "lng": -34.90142,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-90",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Parnamirim",
+   "address": "Av. 17 de Agosto, Praça Dr. José Vilela",
+   "lat": -8.03417,
+   "lng": -34.91129,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-91",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Santana",
+   "address": "Rua Samuel Farias, Pça Comp. Antonio Maria, em frente ao Colégio Expoente",
+   "lat": -8.04066,
+   "lng": -34.91414,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-92",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Morro da Conceição",
+   "address": "Rua Morro da Conceição, Praça do Morro da Conceição",
+   "lat": -8.01938,
+   "lng": -34.91465,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-93",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Monteiro",
+   "address": "Av.17 de Agosto, Pça em frente ao Colégio Silva Jardim",
+   "lat": -8.02792,
+   "lng": -34.92825,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-94",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Jaqueira",
+   "address": "Rua Rui Barbosa, Cais da Jaqueira,lateral do Parque da Jaqueira",
+   "lat": -8.03716,
+   "lng": -34.90612,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-95",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Poco",
+   "address": "Rua do Futuro, Praça Souto Filho,Jaqueira.",
+   "lat": -8.03627,
+   "lng": -34.90289,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-96",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Poco",
+   "address": "Estrada. Real do Poço., Praça Rui Antunes",
+   "lat": -8.03688,
+   "lng": -34.925,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-97",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Macaxeira",
+   "address": "Av. Norte, Academia da Cidade do Buriti, em frente da Academia da Cidade do Burit",
+   "lat": -8.0169,
+   "lng": -34.92941,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-98",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Santana",
+   "address": "R. Jorge Gomes de Sá (Parque de Santana), em frente do Parque de Santana",
+   "lat": -8.04113,
+   "lng": -34.91763,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-99",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Casa Amarela",
+   "address": "Av. Norte., Praça do Trabalho,",
+   "lat": -8.02311,
+   "lng": -34.91434,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-100",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Casa Amarela",
+   "address": "Av.17 de Agosto., Praça da Vitória Régia",
+   "lat": -8.03575,
+   "lng": -34.9202,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-101",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Ilha Joana Bezerra",
+   "address": "Av. Beira Rio, Praça da Academia da Cidade",
+   "lat": -8.04662,
+   "lng": -34.90417,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-102",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Madalena",
+   "address": "Rua José Múcio Monteiro, Estacionamento da FCAP-UPE",
+   "lat": -8.06119,
+   "lng": -34.90283,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-103",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Torre",
+   "address": "Rua Prof. Barreto Campelo, Praça Prof. Barreto Campelo",
+   "lat": -8.04701,
+   "lng": -34.91375,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-104",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Engemho do Meio",
+   "address": "Rua Antonio Curado, Praça da Academia da Cidade Arnaldo Assunção.",
+   "lat": -8.05728,
+   "lng": -34.94233,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-105",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Iputinga",
+   "address": "Rua Bom Pastor, Praça do Bom Pastor",
+   "lat": -8.04891,
+   "lng": -34.94011,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-106",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Torre",
+   "address": "Rua Real da Torre, Centro Educacional Paulo Freire da Prefeitura",
+   "lat": -8.04516,
+   "lng": -34.91005,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-107",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "San Martin",
+   "address": "Rua Dezesseis de Outubro - Cordeiro, Em frente do Parque Arraial Novo do Bom Jesus",
+   "lat": -8.05808,
+   "lng": -34.93118,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-108",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "San Martin",
+   "address": "Rua Elphego Jorge de Souza, ao lado do CHESF - Companhia Hidroelétrica do São Francisco",
+   "lat": -8.06415,
+   "lng": -34.93102,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-109",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "San Martin",
+   "address": "Av.General San Martin, Academia da Cidade de San Martin.",
+   "lat": -8.06681,
+   "lng": -34.92757,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-110",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Imbiribeira",
+   "address": "Avenida Mascarenhas de Moraes, em frente à COPERGÁS",
+   "lat": -8.08728,
+   "lng": -34.90748,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-111",
+   "kind": "OUTRO",
+   "name": "EMPREL",
+   "neighborhood": "San Martin",
+   "address": "Rua Vinte e Um de Abril, 3370, EMPREL",
+   "lat": -8.06767,
+   "lng": -34.93808,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "eletrônico"
+   ]
+  },
+  {
+   "id": "pt-112",
+   "kind": "OUTRO",
+   "name": "URB",
+   "neighborhood": "Boa Vista",
+   "address": "Av. Conde da Boa Vista, 867, URB",
+   "lat": -8.0583,
+   "lng": -34.88852,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "eletrônico"
+   ]
+  },
+  {
+   "id": "pt-113",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Boa Viagem",
+   "address": "Rua Visc. de Jequitinhonha, 2674",
+   "lat": -8.13626,
+   "lng": -34.9037,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-114",
+   "kind": "OUTRO",
+   "name": "Jardim Botânico do Recife",
+   "neighborhood": "Curado",
+   "address": "Rodovia BR 232, s/n - Curado",
+   "lat": -8.07607,
+   "lng": -34.96671,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "eletrônico"
+   ]
+  },
+  {
+   "id": "pt-115",
+   "kind": "OUTRO",
+   "name": "EMLURB",
+   "neighborhood": "Areias",
+   "address": "Av. Recife, 3587 - Areias, Próximo ao Hospital Geral de Areias",
+   "lat": -8.10202,
+   "lng": -34.92799,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "eletrônico"
+   ]
+  },
+  {
+   "id": "pt-116",
+   "kind": "OUTRO",
+   "name": "ESCOLA PROFISSIONALIZANTE DE BEBERIBE ZULEIDE GOMES MONTEIRO",
+   "neighborhood": "Beberibe",
+   "address": "Rua Melânio de Barros Correia, 26",
+   "lat": -8.00306,
+   "lng": -34.89906,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "eletrônico"
+   ]
+  },
+  {
+   "id": "pt-117",
+   "kind": "OUTRO",
+   "name": "ESCOLA PROFISSIONAL DOM BOSCO",
+   "neighborhood": "Casa Amarela",
+   "address": "Av. Norte Miguel Arraes, 5600",
+   "lat": -8.02155,
+   "lng": -34.91664,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "eletrônico"
+   ]
+  },
+  {
+   "id": "pt-118",
+   "kind": "OUTRO",
+   "name": "ESCOLA PROFISSIONAL ANEXA AO CSU BIDU KRAUSE",
+   "neighborhood": "Totó",
+   "address": "Av 11 de Agosto, Bidu Krause",
+   "lat": -8.07978,
+   "lng": -34.97034,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "eletrônico"
+   ]
+  },
+  {
+   "id": "pt-119",
+   "kind": "OUTRO",
+   "name": "Shopping Plaza no estacionamento do térreo",
+   "neighborhood": "Casa Forte",
+   "address": "Dr. João Santos Filho, 255",
+   "lat": -8.03636,
+   "lng": -34.91304,
+   "accepts": [
+    "PILHAS_BATERIAS"
+   ],
+   "rawTypes": [
+    "pilhas e baterias"
+   ]
+  },
+  {
+   "id": "pt-120",
+   "kind": "OUTRO",
+   "name": "Nagem Informática",
+   "neighborhood": "Boa Viagem",
+   "address": "Rua Padre Carapuceiro, 777",
+   "lat": -8.12084,
+   "lng": -34.90438,
+   "accepts": [
+    "PILHAS_BATERIAS"
+   ],
+   "rawTypes": [
+    "pilhas e baterias"
+   ]
+  },
+  {
+   "id": "pt-121",
+   "kind": "OUTRO",
+   "name": "Hiper Bompreço de Casa Forte",
+   "neighborhood": "Casa Forte",
+   "address": "Praça Jorn. Francisco P. Queiroz, 310",
+   "lat": -8.0376,
+   "lng": -34.91375,
+   "accepts": [
+    "PILHAS_BATERIAS"
+   ],
+   "rawTypes": [
+    "pilhas e baterias"
+   ]
+  },
+  {
+   "id": "pt-122",
+   "kind": "OUTRO",
+   "name": "Deskontão Atacadista",
+   "neighborhood": "Casa Amarela",
+   "address": "Av. Norte Miguel Arraes de Alencar, 6061",
+   "lat": -8.02113,
+   "lng": -34.91967,
+   "accepts": [
+    "PILHAS_BATERIAS"
+   ],
+   "rawTypes": [
+    "pilhas e baterias"
+   ]
+  },
+  {
+   "id": "pt-123",
+   "kind": "OUTRO",
+   "name": "Universidade Federal de Pernambuco - UFPE",
+   "neighborhood": "Iputinga",
+   "address": "Av. Prof. Moraes Rego, 1235",
+   "lat": -8.05233,
+   "lng": -34.94509,
+   "accepts": [
+    "PILHAS_BATERIAS"
+   ],
+   "rawTypes": [
+    "pilhas e baterias"
+   ]
+  },
+  {
+   "id": "pt-124",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Imbiribeira",
+   "address": "Rua Nova Verona, Praça da Academia da Cidade/Lagoa do Araçá",
+   "lat": -8.09659,
+   "lng": -34.91546,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-125",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Boa Viagem",
+   "address": "Av. Barão de Souza Leão, Posto Tiradentes/BR.",
+   "lat": -8.13292,
+   "lng": -34.9126,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-126",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Boa Viagem",
+   "address": "Rua Marques de Valença, Lateral da Igreja Matriz de Boa Viagem",
+   "lat": -8.13176,
+   "lng": -34.90065,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-127",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Boa Viagem",
+   "address": "Av. Boa Viagem, Parque Dona Lindú",
+   "lat": -8.14094,
+   "lng": -34.9033,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-128",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Boa Viagem",
+   "address": "Rua Dr. Nilo Dornelas Câmara, Praça de Boa Viagem (calçada voltada para  a praia)",
+   "lat": -8.13231,
+   "lng": -34.90011,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-129",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Tejipio",
+   "address": "AV. Liberdade, Em frente do portão Cemitério Parque das Flores",
+   "lat": -8.08214,
+   "lng": -34.96028,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-130",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Tejipio",
+   "address": "AV. Dr. José Rufino, Saída da Estação Tejipió",
+   "lat": -8.09081,
+   "lng": -34.95709,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-131",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Barro",
+   "address": "Rua José Benedito Mouri Fernandes, Rua Cap. Ponciano",
+   "lat": -8.09526,
+   "lng": -34.94353,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-132",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Areias",
+   "address": "Rua Ipojuca, Praça Heróis da Restauração",
+   "lat": -8.09703,
+   "lng": -34.93612,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-133",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Jardim São Paulo",
+   "address": "Rua Nossa Senhora de Fatima, Praça de Jardim São Paulo",
+   "lat": -8.08196,
+   "lng": -34.93812,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-134",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Caçote",
+   "address": "Av. Recife, em frente do EMLURB",
+   "lat": -8.102,
+   "lng": -34.92827,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-135",
+   "kind": "OUTRO",
+   "name": "Amape-Associação Meio Ambiente Preservar e Educar",
+   "neighborhood": "Poço da Panela",
+   "address": "Rua Eng. Oscár Ferreira, 338",
+   "lat": -8.02939,
+   "lng": -34.92279,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-136",
+   "kind": "OUTRO",
+   "name": "Associação de trapeiros do Emaús",
+   "neighborhood": "Dois Unidos",
+   "address": "Rua Mamede Coelho, 53",
+   "lat": -8.00543,
+   "lng": -34.90334,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-137",
+   "kind": "OUTRO",
+   "name": "Pão de Açúcar do Parnamirim",
+   "neighborhood": "Parnamirim",
+   "address": "Rua Desembargador Góis Cavalcante, 261",
+   "lat": -8.03158,
+   "lng": -34.90845,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-138",
+   "kind": "OUTRO",
+   "name": "CRC Marista",
+   "neighborhood": "Guabiraba",
+   "address": "Av. da Recuperação, 318",
+   "lat": -8.01633,
+   "lng": -34.94021,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "eletrônico"
+   ]
+  },
+  {
+   "id": "pt-139",
+   "kind": "OUTRO",
+   "name": "Drogarias Carrefour",
+   "neighborhood": "Torre",
+   "address": "Rua José Bonifácio, 1315",
+   "lat": -8.0401,
+   "lng": -34.90977,
+   "accepts": [
+    "MEDICAMENTO"
+   ],
+   "rawTypes": [
+    "Medicamentos"
+   ]
+  },
+  {
+   "id": "pt-140",
+   "kind": "OUTRO",
+   "name": "ASA Portaria",
+   "neighborhood": "Afogados",
+   "address": "Rua da Paz, 82",
+   "lat": -8.07923,
+   "lng": -34.90441,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-141",
+   "kind": "OUTRO",
+   "name": "Procuradoria Geral de Justiça",
+   "neighborhood": "Afogados",
+   "address": "Rua São Miguel, 250",
+   "lat": -8.06696,
+   "lng": -34.88514,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-142",
+   "kind": "OUTRO",
+   "name": "Escola Prof. Mardonio de Andrade Lima Coelho",
+   "neighborhood": "Bomba do Hemetério",
+   "address": "Rua Chã de Alegria, 117",
+   "lat": -8.0208,
+   "lng": -34.9038,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-143",
+   "kind": "OUTRO",
+   "name": "Econúcleo Jaqueira",
+   "neighborhood": "Jaqueira",
+   "address": "Rua do futuro, 959",
+   "lat": -8.03579,
+   "lng": -34.90497,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "eletrônico"
+   ]
+  },
+  {
+   "id": "pt-144",
+   "kind": "OUTRO",
+   "name": "Empresa de Manutenção e Limpeza Urbana",
+   "neighborhood": "Boa Vista",
+   "address": "Av. Governador Carlos de Lima Cavalcanti, Ao lado do Posto Dom Bosco",
+   "lat": -8.05621,
+   "lng": -34.89546,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "eletrônico"
+   ]
+  },
+  {
+   "id": "pt-145",
+   "kind": "OUTRO",
+   "name": "Compaz Alto Santa Terezinha",
+   "neighborhood": "Água Fria",
+   "address": "Av. Aníbal Benévolo, 1552, ao lado Centro Comunitária da Paz - COMPAZ- Alto Santa Terezinha",
+   "lat": -8.0104,
+   "lng": -34.90329,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "eletrônico"
+   ]
+  },
+  {
+   "id": "pt-146",
+   "kind": "OUTRO",
+   "name": "Compaz San Martin",
+   "neighborhood": "Jiquiá",
+   "address": "Av. General San Martin, Ao lado do Condomínio Morada Recife Antigo",
+   "lat": -8.06002,
+   "lng": -34.92616,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "eletrônico"
+   ]
+  },
+  {
+   "id": "pt-147",
+   "kind": "OUTRO",
+   "name": "colegio boa viagem",
+   "neighborhood": "Boa viagem",
+   "address": "Rua Professor Eduardo Wanderley Filho, Ao lado do Condomínio  Ed. Sky Boa Viagem",
+   "lat": -8.11076,
+   "lng": -34.89461,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-148",
+   "kind": "OUTRO",
+   "name": "Colégio Madre de Deus",
+   "neighborhood": "Boa Viagem",
+   "address": "Rua Padre Cabral, Em frente a loja Miss Meria",
+   "lat": -8.13372,
+   "lng": -34.90714,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-149",
+   "kind": "OUTRO",
+   "name": "Tribunal de Justiça (Ed. Paula Batista)",
+   "neighborhood": "Santo Antônio",
+   "address": "Rua Moacir Boracho, Ao lado da Secretaria da fazenda do estado de pernambuco",
+   "lat": -8.06222,
+   "lng": -34.87688,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-150",
+   "kind": "OUTRO",
+   "name": "Escola Municipal Engenho do Meio",
+   "neighborhood": "Engenho do Meio",
+   "address": "Rua Bom Pastor, 1406",
+   "lat": -8.04992,
+   "lng": -34.93962,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-151",
+   "kind": "OUTRO",
+   "name": "Colégio Saber Viver Espinheiro",
+   "neighborhood": "Espinheiro",
+   "address": "Av. João de Barros, 1545, Nº1545/1563",
+   "lat": -8.04101,
+   "lng": -34.89182,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-152",
+   "kind": "OUTRO",
+   "name": "Colégio Núcleo",
+   "neighborhood": "Graças",
+   "address": "Av. Rui Barbosa, 1680",
+   "lat": -8.03877,
+   "lng": -34.90459,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-153",
+   "kind": "OUTRO",
+   "name": "SESI Ibura",
+   "neighborhood": "Ibura",
+   "address": "Av. Ministro Oliveira Salazar, 228",
+   "lat": -8.10995,
+   "lng": -34.93766,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-154",
+   "kind": "OUTRO",
+   "name": "Escola Maria Sampaio de Lucena",
+   "neighborhood": "Ibura",
+   "address": "Av. Pernambuco, Em frete do NÚCLEO DE SEGURANÇA COMUNITÁRIA",
+   "lat": -8.1213,
+   "lng": -34.94675,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-155",
+   "kind": "OUTRO",
+   "name": "Central de Juizados Especiais",
+   "neighborhood": "Imbiribeira",
+   "address": "Av. Marechal Mascarenhas de Morais, 1919",
+   "lat": -8.0996,
+   "lng": -34.90946,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-156",
+   "kind": "OUTRO",
+   "name": "Escola Anita Garibalde",
+   "neighborhood": "Imbiribeira",
+   "address": "Rua Conego Lira, 282",
+   "lat": -8.09538,
+   "lng": -34.91227,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-157",
+   "kind": "OUTRO",
+   "name": "EREM Engenheiro Lauro Dinis",
+   "neighborhood": "Ipsep",
+   "address": "Rua Saturnino Meireles, s/n",
+   "lat": -8.11445,
+   "lng": -34.92125,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-158",
+   "kind": "ECOESTACAO",
+   "name": "Ecoestação",
+   "neighborhood": "Ibura",
+   "address": "Rua Rio Tapado, s/n",
+   "lat": -8.11673,
+   "lng": -34.9436,
+   "accepts": [
+    "RECICLAVEL",
+    "ELETRONICO",
+    "ENTULHO",
+    "VOLUMOSO",
+    "PODA",
+    "ORGANICO"
+   ],
+   "rawTypes": [
+    "lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas"
+   ]
+  },
+  {
+   "id": "pt-159",
+   "kind": "ECOESTACAO",
+   "name": "Ecoestação",
+   "neighborhood": "Imbiribeira",
+   "address": "Avenida Mascarenhas de Morais, Sentido cidade/subúrbio, próximo ao viaduto Tancredo Neves",
+   "lat": -8.12308,
+   "lng": -34.9133,
+   "accepts": [
+    "RECICLAVEL",
+    "ELETRONICO",
+    "ENTULHO",
+    "VOLUMOSO",
+    "PODA",
+    "ORGANICO"
+   ],
+   "rawTypes": [
+    "lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas"
+   ]
+  },
+  {
+   "id": "pt-160",
+   "kind": "ECOESTACAO",
+   "name": "Ecoestação",
+   "neighborhood": "Arruda",
+   "address": "Rua Professor José dos Anjos, (Ao lado do Habitacional Palha de Arroz",
+   "lat": -8.02263,
+   "lng": -34.88009,
+   "accepts": [
+    "RECICLAVEL",
+    "ELETRONICO",
+    "ENTULHO",
+    "VOLUMOSO",
+    "PODA",
+    "ORGANICO"
+   ],
+   "rawTypes": [
+    "lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas"
+   ]
+  },
+  {
+   "id": "pt-161",
+   "kind": "ECOPONTO",
+   "name": "Ecoponto",
+   "neighborhood": "Madalena",
+   "address": "Rua Visconde de Albuquerque, Praça Eça de Queiroz",
+   "lat": -8.05074,
+   "lng": -34.90665,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-162",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Óleos de Cozinha)",
+   "neighborhood": "Aflitos",
+   "address": "Av. Cons. Rosa Silva, SEMAS",
+   "lat": -8.03985,
+   "lng": -34.90153,
+   "accepts": [
+    "OLEO",
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha",
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-163",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Óleos de Cozinha)",
+   "neighborhood": "Areias",
+   "address": "Av. Recife, 3587, EMLURB",
+   "lat": -8.10186,
+   "lng": -34.93044,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-164",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Óleos de Cozinha)",
+   "neighborhood": "Dois Irmãos",
+   "address": "Praça Faria Neves, s/n, Compesa - Dois irmãos",
+   "lat": -8.01566,
+   "lng": -34.94311,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-165",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Óleos de Cozinha)",
+   "neighborhood": "Jardim São Paulo",
+   "address": "Rua Capetinga, s/n, Escola Trajano de Mendoca",
+   "lat": -8.07851,
+   "lng": -34.94351,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-166",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Óleos de Cozinha)",
+   "neighborhood": "Recife Antigo",
+   "address": "Av. Rio Branco, 193, EREM Porto Digital",
+   "lat": -8.06274,
+   "lng": -34.87556,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-167",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Óleos de Cozinha)",
+   "neighborhood": "Santo Amaro",
+   "address": "Av. Cruz Cabugá, 767, Serviço Social da Indústria - Sesi",
+   "lat": -8.0479,
+   "lng": -34.87982,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-168",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Óleos de Cozinha)",
+   "neighborhood": "Totó",
+   "address": "Rua Onze de Agosto, 564, Compesa",
+   "lat": -8.07845,
+   "lng": -34.97339,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-169",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Óleos de Cozinha)",
+   "neighborhood": "Vasco da gama",
+   "address": "Rua Vasco da Gama,145, SESI Vasco da Gama",
+   "lat": -8.01927,
+   "lng": -34.92378,
+   "accepts": [
+    "OLEO"
+   ],
+   "rawTypes": [
+    "Óleos de Cozinha"
+   ]
+  },
+  {
+   "id": "pt-170",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "Imbiribeira",
+   "address": "Rua Antônio Cardoso da Fonte, n 483, Pro-Recife",
+   "lat": -8.09776,
+   "lng": -34.92177,
+   "accepts": [
+    "RECICLAVEL",
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "eletronico, metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-171",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "Afogados",
+   "address": "Rua Oscár Melo, COOPAGRES",
+   "lat": -8.09776,
+   "lng": -34.92834,
+   "accepts": [
+    "RECICLAVEL",
+    "ELETRONICO",
+    "OLEO"
+   ],
+   "rawTypes": [
+    "eletronico, oleo de cozinha, metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-172",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "Arruda",
+   "address": "Rua Farias Neves, n 982, Palha de arroz",
+   "lat": -8.02031,
+   "lng": -34.87646,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-173",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "São José",
+   "address": "Avenida Sul, S/N, Cooperativa Verde Nossa Vida",
+   "lat": -8.07544,
+   "lng": -34.8909,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-174",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "Torre",
+   "address": "Rua Eliéser Olímpio de Moura, 100 A, Cooperativa Recicla Torre",
+   "lat": -8.04456,
+   "lng": -34.91515,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-175",
+   "kind": "COOPERATIVA",
+   "name": "Cooperativa",
+   "neighborhood": "Dois Unidos/Passarinho",
+   "address": "Av. Chagas Ferreira, 601, Cooperativa Resgatando Vidas",
+   "lat": -8.0051,
+   "lng": -34.9145,
+   "accepts": [
+    "RECICLAVEL"
+   ],
+   "rawTypes": [
+    "metal,isopor,papel,plastico,vidro"
+   ]
+  },
+  {
+   "id": "pt-176",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Pneu)",
+   "neighborhood": "Madalena",
+   "address": "Av. Abdias de Carvalho, 341, Pneus Pirelle",
+   "lat": -8.06142,
+   "lng": -34.90872,
+   "accepts": [
+    "PNEU"
+   ],
+   "rawTypes": [
+    "Pneu"
+   ]
+  },
+  {
+   "id": "pt-177",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Pneu)",
+   "neighborhood": "Espinheiro",
+   "address": "Av. Norte, 2261, Bridgestone Pneus",
+   "lat": -8.03922,
+   "lng": -34.89333,
+   "accepts": [
+    "PNEU"
+   ],
+   "rawTypes": [
+    "Pneu"
+   ]
+  },
+  {
+   "id": "pt-178",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Pneu)",
+   "neighborhood": "São José",
+   "address": "Rua Lourenço de Sá, 165, Pneu Verde",
+   "lat": -8.07433,
+   "lng": -34.89802,
+   "accepts": [
+    "PNEU"
+   ],
+   "rawTypes": [
+    "Pneu"
+   ]
+  },
+  {
+   "id": "pt-179",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Lampada)",
+   "neighborhood": "Imbiribeira",
+   "address": "Rua Francisco Correa de Moraes, 100, Carrefour RBV Boa Viagem",
+   "lat": -8.12415,
+   "lng": -34.9133,
+   "accepts": [
+    "LAMPADA"
+   ],
+   "rawTypes": [
+    "Lampada"
+   ]
+  },
+  {
+   "id": "pt-180",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Jaqueira",
+   "address": "R. Dep. Pedro Pires Ferreira - Jaqueira, Recife",
+   "lat": -8.03784,
+   "lng": -34.90566,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-181",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Graças",
+   "address": "Rua Gerásio Fioravante, 209. Graça, Recife",
+   "lat": -8.04872,
+   "lng": -34.90322,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-182",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Recife",
+   "address": "Rua Domingos José Martins, 75, Recife, Recife",
+   "lat": -8.06176,
+   "lng": -34.87387,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-183",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Recife",
+   "address": "Edifício Ministro Djaci Falcão, Cais do Apolo – Recife",
+   "lat": -8.05848,
+   "lng": -34.87525,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-184",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Boa Viagem",
+   "address": "Rua Ernesto de Paula Santos, Empresarial Nestor Rocha, 1172. Boa Viagem, Recife",
+   "lat": -8.124,
+   "lng": -34.90837,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-185",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Derby",
+   "address": "Rua Henrique Dias, 609. Derby, Recife",
+   "lat": -8.05918,
+   "lng": -34.90139,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-186",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Casa Forte",
+   "address": "Av. Dezessete de Agosto, 2187. Casa Forte, Recife",
+   "lat": -8.03113,
+   "lng": -34.92763,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-187",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Muribeca",
+   "address": "Rodovia 101 Sul, S/N, Km 81.30, Galpão B, Muribeca, PE",
+   "lat": -8.16335,
+   "lng": -34.94259,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-188",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Ilha do Leite",
+   "address": "Av. Gov. Agamenon Magalhães, 4475 - Ilha do Leite, Recife",
+   "lat": -8.06399,
+   "lng": -34.89907,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-189",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Casa Caiada",
+   "address": "Av. Doutor José Augusto Moreira, 900, Casa Caiada – Olinda",
+   "lat": -7.99303,
+   "lng": -34.84364,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-190",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Espinheiro",
+   "address": "Av. Gov. Agamenon Magalhães, 2978 - Espinheiro, Recife",
+   "lat": -8.04804,
+   "lng": -34.89539,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-191",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Graças",
+   "address": "Av. Rui Barbosa, 1104, Graças – Recife",
+   "lat": -8.04278,
+   "lng": -34.90361,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-192",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Várzea",
+   "address": "Rua Ministro Mário Andreaza, S/N, Várzea, Recife",
+   "lat": -8.06608,
+   "lng": -34.98797,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-193",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Piedade",
+   "address": "Av. Barreto de Menezes, 800, Piedade - Jaboatão dos Guararapes",
+   "lat": -8.16731,
+   "lng": -34.9208,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-194",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Casa Forte",
+   "address": "Rua Dr. João Santos Filho, 255, Casa Forte - Recife",
+   "lat": -8.03715,
+   "lng": -34.91704,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-195",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Casa Caiada",
+   "address": "R. Carmelita Muniz de Araújo, 225 - Casa Caiada, Olinda",
+   "lat": -7.99347,
+   "lng": -34.84248,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-196",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Boa Viagem",
+   "address": "Rua Belmonte, Nº 199, Boa Viagem - RECIFE/PE",
+   "lat": -8.13331,
+   "lng": -34.90945,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-197",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Boa Viagem",
+   "address": "Rua José Cardoso Aires, nº 705, Boa Viagem - Recife/PE",
+   "lat": -8.14157,
+   "lng": -34.91222,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-198",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Tamarineira",
+   "address": "Rua Sebastião Alves, nº 73, Tamarineira, Recife/PE",
+   "lat": -8.03163,
+   "lng": -34.90794,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-199",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Pina",
+   "address": "Av. República do Líbano nº251, Pina, Recife/PE",
+   "lat": -8.03706,
+   "lng": -34.94987,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-200",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Graças",
+   "address": "Rua Antenor Navarro, 81. Graças, Recife/PE",
+   "lat": -8.0376,
+   "lng": -34.9045,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-201",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Complexo de Salgadinho",
+   "address": "Parque Memorial Arcoverde Complexo de Salgadinho, Olinda - PE",
+   "lat": -8.02756,
+   "lng": -34.86589,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-202",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "São José",
+   "address": "R. Santa Rita, 216 - São José, Recife - PE, 50020-320",
+   "lat": -8.07054,
+   "lng": -34.88077,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-203",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Boa Viagem",
+   "address": "R. Antônio Luís Soares, 129 - Boa Viagem, Recife - PE, 51210-050",
+   "lat": -8.14059,
+   "lng": -34.91895,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-204",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Recife",
+   "address": "Rua Bione, Cais do Apolo, 220, Recife - PE, 50030-390",
+   "lat": -8.05825,
+   "lng": -34.87418,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-205",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Santo Antônio",
+   "address": "Rua da Palma, 333",
+   "lat": -8.06587,
+   "lng": -34.88303,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-206",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Boa Viagem",
+   "address": "Shopping Recife",
+   "lat": -8.10283,
+   "lng": -34.91138,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-207",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Novo Carmelo",
+   "address": "Av. Doutor Belmino Correia, 490A e 490B Loja 490 - Novo Carmelo",
+   "lat": -8.02063,
+   "lng": -34.98392,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-208",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Casa Amarela",
+   "address": "Rua Padre Lemos, 203 Loja 203 - Casa Amarela",
+   "lat": -8.02498,
+   "lng": -34.92038,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-209",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Centro",
+   "address": "Av. Duque de Caxias, 735 - Centro - Abreu e Lima",
+   "lat": -7.90541,
+   "lng": -34.90374,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-210",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Peixinhos",
+   "address": "Av. Presidente Kennedy, 2114 - Peixinhos/Olinda",
+   "lat": -8.01257,
+   "lng": -34.87518,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-211",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Santo Antônio",
+   "address": "Rua da Palma, 251, 251 Loja - Santo Antônio",
+   "lat": -8.06504,
+   "lng": -34.88278,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-212",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Pina",
+   "address": "Shopping Rio Mar",
+   "lat": -8.08629,
+   "lng": -34.89604,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-213",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Prazeres",
+   "address": "Av. Barreto de Menezes , 342 Loja A - Prazeres",
+   "lat": -8.16211,
+   "lng": -34.92824,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-214",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Cavaleiro",
+   "address": "Av. Gov. Agamenon magalhães, 1121 - Cavaleiro",
+   "lat": -8.09156,
+   "lng": -34.97572,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-215",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Casa Forte",
+   "address": "Praça de Casa Forte, 465, Casa Forte - Recife",
+   "lat": -8.0348,
+   "lng": -34.9211,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-216",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Ilha do Retiro",
+   "address": "Rua Tabaiares, 360. Ilha do Retiro, Recife/PE",
+   "lat": -8.06502,
+   "lng": -34.90721,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-217",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Aflitos",
+   "address": "Av. Rosa e Silva, 1510. Aflitos, Recife/PE",
+   "lat": -8.03819,
+   "lng": -34.90189,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-218",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Bongi",
+   "address": "Rua Dona Maria Augusta Nogueira, 519, Bongi - Recife-PE",
+   "lat": -8.0652,
+   "lng": -34.92527,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-219",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Macaxeira",
+   "address": "Av. Norte Miguel Arraes de Alencar, s/n - Macaxeira, Recife",
+   "lat": -8.01458,
+   "lng": -34.9337,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-220",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Rosarinho",
+   "address": "R. Regueira Costa, S/N - Rosarinho, Recife - PE, 52041-050",
+   "lat": -8.03368,
+   "lng": -34.90055,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-221",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Pina",
+   "address": "Av. Eng. Domingos Ferreira, 2379 - Pina, Recife - PE, 51020-031",
+   "lat": -8.11138,
+   "lng": -34.89471,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-222",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Cidade Universitária",
+   "address": "Av. professor Luís Freire, 500, Cidade Universitária - Recife PE",
+   "lat": -8.05894,
+   "lng": -34.95143,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-223",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Boa Vista",
+   "address": "R. João Fernandes Viêira, s/n - Boa Vista, Recife - PE,",
+   "lat": -8.05344,
+   "lng": -34.89412,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-224",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Madalena",
+   "address": "R. Benfica, 286, Madalena",
+   "lat": -8.05908,
+   "lng": -34.9037,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-225",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Graças",
+   "address": "R. do Futuro, 514 - Graças",
+   "lat": -8.04018,
+   "lng": -34.90263,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-226",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Centro",
+   "address": "Av. Pres Getúlio Vargas, 457, centro, Abreu e Lima-PE",
+   "lat": -8.00775,
+   "lng": -34.84399,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-227",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Caetés",
+   "address": "PE-018, 24 - Caetés I, Abreu e Lima - PE",
+   "lat": -7.92412,
+   "lng": -34.938,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-228",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Caetés",
+   "address": "Av. Rui Barbosa, 262 - Caetés Velho, Abreu e Lima - PE",
+   "lat": -7.90738,
+   "lng": -34.90625,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  },
+  {
+   "id": "pt-229",
+   "kind": "OUTRO",
+   "name": "Ponto de coleta (Eletroeletrônico)",
+   "neighborhood": "Zumbi",
+   "address": "R. Paraguassú, 255, Zumbi, Recife-pE",
+   "lat": -8.0496,
+   "lng": -34.91953,
+   "accepts": [
+    "ELETRONICO"
+   ],
+   "rawTypes": [
+    "Eletroeletrônico"
+   ]
+  }
+ ]
+}
