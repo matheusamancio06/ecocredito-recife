@@ -149,3 +149,13 @@ export async function listExchanges(userId: string, limit = 10): Promise<CapibaE
   );
   return rows.map(mapExchange);
 }
+
+/** Capibas já creditadas por trocas desta pessoa (no protótipo, a carteira simulada). */
+export async function capibaBalance(userId: string): Promise<number> {
+  const db = await getDb();
+  const { rows } = await db.query<{ total: number | string }>(
+    `SELECT COALESCE(SUM(capibas), 0) AS total FROM capiba_exchanges WHERE user_id = $1 AND status = 'CREDITADA'`,
+    [userId],
+  );
+  return Number(rows[0]?.total ?? 0);
+}

@@ -2,7 +2,7 @@
 import crypto from "node:crypto";
 import { beforeEach, describe, expect, it } from "vitest";
 import { exportUserData } from "./account";
-import { exchangeForCapibas, listExchanges, simulatedGateway, type CapibaGateway } from "./capiba";
+import { capibaBalance, exchangeForCapibas, listExchanges, simulatedGateway, type CapibaGateway } from "./capiba";
 import { getBalance } from "./credits";
 import { getDb, setDbForTests } from "./db";
 import { ECOCOINS_PER_CAPIBA, MAX_CAPIBAS_PER_EXCHANGE } from "./domain";
@@ -112,6 +112,17 @@ describe("troca por Moeda Capiba", () => {
     await credit(ana.id, 500);
     await expect(exchangeForCapibas(ana.id, 1, null)).rejects.toThrow(/ainda não está disponível/);
     expect(await getBalance(ana.id)).toBe(500);
+  });
+
+  it("o saldo de Capibas soma só as trocas creditadas, de cada pessoa", async () => {
+    await credit(ana.id, 1000);
+    await credit(roberto.id, 1000);
+    await exchangeForCapibas(ana.id, 2, simulatedGateway);
+    await exchangeForCapibas(ana.id, 3, simulatedGateway);
+    await expect(exchangeForCapibas(ana.id, 1, failing)).rejects.toThrow();
+    await exchangeForCapibas(roberto.id, 4, simulatedGateway);
+    expect(await capibaBalance(ana.id)).toBe(5);
+    expect(await capibaBalance(roberto.id)).toBe(4);
   });
 
   it("o histórico é de cada pessoa, do mais recente para o mais antigo", async () => {

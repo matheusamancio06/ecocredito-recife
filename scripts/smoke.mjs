@@ -157,6 +157,7 @@ async function main() {
   const wallet = await (await citizen.fetch("/carteira")).text();
   check("carteira mostra saldo e QR", wallet.includes("Seu saldo") && wallet.includes("Código para o operador"));
   check("carteira oferece a troca por Moeda Capiba", wallet.includes("Trocar por Moeda Capiba"));
+  check("carteira mostra as Capibas e o que a Capiba compra", wallet.includes("Suas Capibas") && wallet.includes("feirinha") && wallet.includes("VEM"));
   check("carteira não tem catálogo de resgate nem comprovantes", !/Resgatar|comprovante/i.test(wallet));
 
   // Sem aceitar o aviso de privacidade, registrar leva ao consentimento.

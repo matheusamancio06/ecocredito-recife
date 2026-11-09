@@ -3,7 +3,8 @@ import Link from "next/link";
 import { CapibaExchange } from "@/components/CapibaExchange";
 import { Card, PageTitle } from "@/components/ui";
 import { WalletQr } from "@/components/WalletQr";
-import { defaultGateway, listExchanges } from "@/lib/capiba";
+import { CapibaWallet } from "@/components/CapibaWallet";
+import { capibaBalance, defaultGateway, listExchanges } from "@/lib/capiba";
 import { getBalance, listDeliveries, listRates } from "@/lib/credits";
 import { requireUser } from "@/lib/auth";
 import { formatDateTime, formatNumber } from "@/lib/format";
@@ -12,11 +13,12 @@ export const metadata: Metadata = { title: "Reciclar" };
 
 export default async function WalletPage() {
   const user = await requireUser("CIDADAO");
-  const [balance, history, rates, exchanges] = await Promise.all([
+  const [balance, history, rates, exchanges, capibas] = await Promise.all([
     getBalance(user.id),
     listDeliveries(user.id),
     listRates(),
     listExchanges(user.id),
+    capibaBalance(user.id),
   ]);
 
   return (
@@ -38,6 +40,8 @@ export default async function WalletPage() {
           </Card>
 
           <CapibaExchange balance={balance} available={defaultGateway() !== null} history={exchanges} />
+
+          <CapibaWallet capibas={capibas} />
 
           <Card>
             <h2 className="mb-3 text-center text-lg font-bold">Código para o operador</h2>
