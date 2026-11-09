@@ -155,7 +155,9 @@ async function main() {
   check("cidadã vê as três abas", ["Registrar entulho", "Meus registros", "Reciclar"].every((t) => myRecords.includes(t)));
   check("cidadã não vê menus retirados", !/Avisos|Painel|Triagem|Administração/.test(myRecords));
   const wallet = await (await citizen.fetch("/carteira")).text();
-  check("carteira mostra saldo e QR, sem resgate", wallet.includes("Seu saldo") && !/Resgatar|comprovante/i.test(wallet));
+  check("carteira mostra saldo e QR", wallet.includes("Seu saldo") && wallet.includes("Código para o operador"));
+  check("carteira oferece a troca por Moeda Capiba", wallet.includes("Trocar por Moeda Capiba"));
+  check("carteira não tem catálogo de resgate nem comprovantes", !/Resgatar|comprovante/i.test(wallet));
 
   // Sem aceitar o aviso de privacidade, registrar leva ao consentimento.
   const beforeConsent = await citizen.fetch("/reportar");

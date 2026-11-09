@@ -30,7 +30,7 @@ export async function exportUserData(userId: string): Promise<Record<string, unk
   const [user] = await query(
     `SELECT id, display_name, role, created_at, consent_at, consent_version FROM users WHERE id = $1`,
   );
-  const [reports, confirmations, deliveries, ledger] = await Promise.all([
+  const [reports, confirmations, deliveries, ledger, capibaExchanges] = await Promise.all([
     query(`SELECT code, status, lat, lng, neighborhood, note, created_at, closed_at, closing_note
            FROM reports WHERE reporter_id = $1 ORDER BY created_at`),
     query(`SELECT r.code, c.created_at FROM report_confirmations c JOIN reports r ON r.id = c.report_id
@@ -39,6 +39,8 @@ export async function exportUserData(userId: string): Promise<Record<string, unk
            FROM deliveries d JOIN collection_points p ON p.id = d.point_id
            WHERE d.user_id = $1 ORDER BY d.created_at`),
     query(`SELECT amount, reason, created_at FROM credit_ledger WHERE user_id = $1 ORDER BY created_at`),
+    query(`SELECT ecocoins, capibas, status, protocol, simulated, created_at
+           FROM capiba_exchanges WHERE user_id = $1 ORDER BY created_at`),
   ]);
 
   return {
@@ -50,6 +52,7 @@ export async function exportUserData(userId: string): Promise<Record<string, unk
     confirmacoes: confirmations,
     entregas: deliveries,
     lancamentosEcoCoins: ledger,
+    trocasPorMoedaCapiba: capibaExchanges,
   };
 }
 

@@ -119,6 +119,17 @@ export const MAX_ACTIONS_PER_HOUR = 8;
 /** Quantos códigos inválidos um operador pode digitar por hora. */
 export const MAX_CODE_ATTEMPTS_PER_HOUR = 30;
 
+// ---------------------------------------------------------------------------
+// Troca por Moeda Capiba (moeda social digital da Prefeitura do Recife)
+// ---------------------------------------------------------------------------
+
+/** Quantos EcoCoins valem 1 Capiba. VALOR DE EXEMPLO: quem define é a Prefeitura. */
+export const ECOCOINS_PER_CAPIBA = 100;
+/** Teto de Capibas numa única troca. */
+export const MAX_CAPIBAS_PER_EXCHANGE = 50;
+/** Trocas por pessoa por hora (antifraude). */
+export const MAX_EXCHANGES_PER_HOUR = 10;
+
 // Versão do aviso de privacidade. Ao mudar o texto, suba a versão: quem já
 // aceitou precisa aceitar de novo (LGPD, art. 8º, §6º).
 export const CONSENT_VERSION = "2026-09-21";

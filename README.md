@@ -3,9 +3,9 @@
 Protótipo acadêmico para o desafio **Gestão digital de resíduos sólidos urbanos** (Banco de Oportunidades da Prefeitura do Recife). O app faz **duas coisas**, de propósito:
 
 1. **Registrar entulho** jogado na rua: o cidadão manda uma foto e marca o ponto no mapa; a **gestão de coleta** vê a fila, remove e **dá baixa**.
-2. **Reciclar para acumular EcoCoins**: o cidadão entrega recicláveis numa cooperativa ou ecoestação, mostra o QR Code, o operador pesa e os EcoCoins entram no saldo.
+2. **Reciclar para acumular EcoCoins**: o cidadão entrega recicláveis numa cooperativa ou ecoestação, mostra o QR Code, o operador pesa e os EcoCoins entram no saldo. Os EcoCoins podem ser **trocados por Moeda Capiba**, a moeda social digital da Prefeitura do Recife.
 
-Não substitui o Conecta Recife/156. Uma versão maior (triagem por equipes, painel de pontos críticos, resgate de benefícios, avisos, integração com o 156, análise de foto por IA) foi construída antes e depois **retirada de propósito**, para o app ficar fácil de usar e de explicar. Ela está guardada na pasta `ecocredito-pwa-versao-completa`.
+Não substitui o Conecta Recife/156. Uma versão maior (triagem por equipes, painel de pontos críticos, catálogo de resgate de benefícios, avisos, integração com o 156, análise de foto por IA) foi construída antes e depois **retirada de propósito**, para o app ficar fácil de usar e de explicar. Ela está guardada na pasta `ecocredito-pwa-versao-completa`.
 
 ## Rodar
 
@@ -34,7 +34,7 @@ npm run smoke     # em outro terminal
 
 | Perfil | O que vê e faz |
 | --- | --- |
-| Cidadão | Três abas: **Registrar entulho** (foto + mapa, inclusive sem internet), **Meus registros** (aberto ou baixado, com antes e depois) e **Reciclar** (saldo, QR Code, histórico) |
+| Cidadão | Três abas: **Registrar entulho** (foto + mapa, inclusive sem internet), **Meus registros** (aberto ou baixado, com antes e depois) e **Reciclar** (saldo, **troca por Moeda Capiba**, QR Code, histórico) |
 | Gestão de coleta | Uma tela: resumo de 4 números, mapa e fila dos registros abertos (mais antigos primeiro) com **Dar baixa**, e a lista dos que já tiveram baixa |
 | Operador de ponto | Em cooperativa ou ecoestação: confere o QR Code do cidadão, pesa e credita EcoCoins |
 
@@ -49,7 +49,9 @@ npm run smoke     # em outro terminal
 
 **EcoCrédito**
 - Código de uso único (10 caracteres, 120 s, invalidado ao gerar outro; ganha 10 min depois de conferido pelo operador), entrega pesada por operador de ponto com atendente, livro-razão só de acréscimos, limite diário por pessoa, e cada ponto só aceita os materiais que recebe.
-- Os EcoCoins **só acumulam**: o app não tem resgate. O que eles podem valer (desconto em tributo, vale-feira etc.) depende de lei ou convênio municipal, e essa decisão é da Prefeitura.
+- **Troca por Moeda Capiba**: o cidadão troca EcoCoins por Capibas (100 EcoCoins = 1 Capiba, **taxa de exemplo**; de 1 a 50 por troca, até 10 trocas por hora). A Capiba é emitida pela Prefeitura e vive no app Conecta Recife; por isso o crédito passa por um *gateway* (`src/lib/capiba.ts`). A troca é feita em duas etapas: o débito e o registro (PENDENTE) numa transação que trava a pessoa, e depois o pedido de crédito. Se o crédito falhar, o débito é **estornado uma única vez**. Duas trocas ao mesmo tempo não gastam o mesmo saldo.
+- **A integração é simulada.** Só existe o gateway de demonstração (ativo com `DEMO_MODE=1`): ele devolve um protocolo `SIM-…` e a tela avisa que é simulação. Sem ele, a troca fica indisponível. Creditar Capiba de verdade exige acordo com a Prefeitura e uma API do Conecta Recife, que este protótipo não tem; trocar o gateway não mexe no resto.
+- Quem não trocou continua com o saldo guardado, sem validade.
 
 ## Dados reais (Portal de Dados Abertos da Prefeitura do Recife, licença ODbL)
 
@@ -75,7 +77,8 @@ npm run smoke     # em outro terminal
 
 ## O que depende da Prefeitura
 
-- **Uso dos EcoCoins**: base legal e orçamento para qualquer benefício.
+- **Moeda Capiba**: acordo com a Prefeitura/Porto Digital, API para creditar Capibas no Conecta Recife, a taxa de conversão e o limite de emissão. A Capiba tem a Prefeitura como emissora; este sistema só pede o crédito.
+- **Identificação na troca**: para creditar a pessoa certa no Conecta Recife seria preciso um identificador comum (hoje o sistema guarda só um código derivado do CPF). Isso exige base legal e ajuste do aviso de privacidade.
 - **Quem é gestão de coleta e quem é operador**: hoje só existem no modo demonstração; no ambiente real, a concessão desses perfis precisa de um processo definido pelo órgão.
 - **Credenciais**: gov.br (órgão público).
 - **LGPD**: controlador, Encarregado de Dados (DPO) e Relatório de Impacto (RIPD) do serviço. Enquanto for protótipo acadêmico, não envie dados reais.
@@ -83,10 +86,11 @@ npm run smoke     # em outro terminal
 
 ## Fora do escopo desta versão (próximos passos)
 
-Retirados para simplificar, e possíveis de retomar a partir da versão completa: triagem por tipo de resíduo e equipes de campo, painel de pontos críticos e cobertura, lista com filtros e CSV, avisos ao cidadão, resgate de EcoCoins, taxa de reciclagem contra a tonelagem da Emlurb, integração com o 156/Conecta Recife e análise de foto por IA.
+Retirados para simplificar, e possíveis de retomar a partir da versão completa: triagem por tipo de resíduo e equipes de campo, painel de pontos críticos e cobertura, lista com filtros e CSV, avisos ao cidadão, catálogo de resgate de EcoCoins (a troca por Moeda Capiba cumpre esse papel), taxa de reciclagem contra a tonelagem da Emlurb, integração com o 156/Conecta Recife e análise de foto por IA.
 
 ## Fontes
 
 - [Bairros do Recife](https://dados.recife.pe.gov.br/pt_BR/dataset/area-urbana/resource/5c67ce14-1799-40c4-a37c-9daa04d1761c) e [Pontos de coleta seletiva e resíduos](https://dados.recife.pe.gov.br/dataset/pontos-de-coleta-seletiva), Portal de Dados Abertos da Prefeitura do Recife (ODbL).
+- [Moeda Capiba, moeda social digital da Prefeitura do Recife no app Conecta Recife](https://movimentoeconomico.com.br/tecnologia/2024/04/02/conheca-a-capiba-a-moeda-social-digital-criada-no-recife-e-pioneira-no-pais/) (reportagem de abril de 2024; a página oficial e as regras vigentes devem ser conferidas com a Prefeitura).
 - [Solicitar remoção de entulhos](https://conecta.recife.pe.gov.br/servico/245), Emlurb.
 - [Roteiro técnico do Login Único gov.br](https://acesso.gov.br/roteiro-tecnico/iniciarintegracao.html).

@@ -5,10 +5,12 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { acceptConsent, deleteAccount } from "@/lib/account";
 import { HOME_BY_ROLE, requireUser } from "@/lib/auth";
+import { exchangeForCapibas } from "@/lib/capiba";
 import { loginAsDemoPersona } from "@/lib/demo-login";
-import { NOTE_MAX_LENGTH } from "@/lib/domain";
+import { MAX_EXCHANGES_PER_HOUR, NOTE_MAX_LENGTH } from "@/lib/domain";
 import { DomainError, closeReport } from "@/lib/repo";
 import { destroySession, revokeAllSessions } from "@/lib/session";
+import { hitLimit } from "@/lib/throttle";
 import { UploadError, deleteImage, saveImage } from "@/lib/uploads";
 
 export interface ActionState {
@@ -71,6 +73,30 @@ export async function deleteAccountAction(_prev: ActionState, formData: FormData
     return toState(error);
   }
   redirect("/?conta=encerrada");
+}
+
+// ---------------------------------------------------------------------------
+// Troca de EcoCoins por Moeda Capiba
+// ---------------------------------------------------------------------------
+
+export async function exchangeCapibaAction(_prev: ActionState, formData: FormData): Promise<ActionState> {
+  const user = await requireUser("CIDADAO");
+  const capibas = Number(text(formData, "capibas").trim());
+  if (!(await hitLimit(`capiba:${user.id}`, MAX_EXCHANGES_PER_HOUR, 3600))) {
+    return { error: "Muitas trocas seguidas. Espere um pouco e tente de novo." };
+  }
+  try {
+    const exchange = await exchangeForCapibas(user.id, capibas);
+    revalidatePath("/carteira");
+    const plural = exchange.capibas === 1 ? "Capiba" : "Capibas";
+    return {
+      ok: exchange.simulated
+        ? `Troca simulada: ${exchange.capibas} ${plural} por ${exchange.ecocoins} EcoCoins (protocolo ${exchange.protocol}). No ambiente real, as Capibas chegam à sua carteira do Conecta Recife.`
+        : `${exchange.capibas} ${plural} creditada(s) na sua carteira do Conecta Recife (protocolo ${exchange.protocol}).`,
+    };
+  } catch (error) {
+    return toState(error);
+  }
 }
 
 // ---------------------------------------------------------------------------

@@ -171,6 +171,32 @@ CREATE TABLE IF NOT EXISTS photos (
 );
 `,
   },
+  {
+    version: 2,
+    sql: `
+-- Troca de EcoCoins por Moeda Capiba (moeda social digital da Prefeitura do Recife,
+-- usada no app Conecta Recife). A troca nasce PENDENTE, debita o saldo no livro-razão
+-- e vira CREDITADA quando a Capiba confirma; se falhar, o débito é estornado.
+CREATE TABLE IF NOT EXISTS capiba_exchanges (
+  id text PRIMARY KEY,
+  user_id text NOT NULL REFERENCES users(id),
+  ecocoins int NOT NULL CHECK (ecocoins > 0),
+  capibas int NOT NULL CHECK (capibas > 0),
+  status text NOT NULL DEFAULT 'PENDENTE' CHECK (status IN ('PENDENTE','CREDITADA','FALHOU')),
+  protocol text,
+  simulated boolean NOT NULL DEFAULT true,
+  created_at timestamptz NOT NULL DEFAULT now(),
+  settled_at timestamptz
+);
+CREATE INDEX IF NOT EXISTS capiba_exchanges_user_idx ON capiba_exchanges (user_id, created_at);
+
+-- Lançamentos de troca e de estorno apontam para a troca que os gerou.
+ALTER TABLE credit_ledger ADD COLUMN IF NOT EXISTS capiba_exchange_id text REFERENCES capiba_exchanges(id);
+-- Cada troca debita uma vez só.
+CREATE UNIQUE INDEX IF NOT EXISTS credit_ledger_capiba_debit_idx
+  ON credit_ledger (capiba_exchange_id) WHERE reason = 'TROCA_CAPIBA';
+`,
+  },
 ];
 
 /** Aplica UMA migração e registra a versão, tudo numa transação. */
