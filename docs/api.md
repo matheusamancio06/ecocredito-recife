@@ -27,13 +27,21 @@ camadas separadas:
    inclusive o que ficou na fila offline do aparelho, fotos, exportação de dados, saúde).
 2. **Server actions**: cada ação abaixo vira uma requisição POST feita pelo Next.js quando o formulário é enviado.
 3. **Leitura de dados nas páginas**: as páginas rodam no servidor e chamam as funções de `src/lib` direto, sem
-   uma requisição HTTP extra. Por isso não há `GET /api/registros`: a lista chega pronta na página.
+   uma requisição HTTP extra. Os mesmos dados também estão disponíveis em **rotas `GET` em JSON** (tabela abaixo),
+   que usam as mesmas regras e as mesmas conferências de login e perfil das páginas. Assim um aplicativo
+   móvel ou outro cliente pode consumir o back-end sem passar pelas telas.
 
 ## Rotas REST
 
 | Método e caminho | Quem pode | O que faz | Respostas |
 |---|---|---|---|
 | `POST /api/ocorrencias` | Cidadão com o aviso de privacidade aceito | Cria um registro de entulho. Corpo `multipart/form-data`: `lat`, `lng`, `photo`, `note` (opcional). Se já há registro aberto perto, o envio é tratado como confirmação. | 200 `{ok, reportId, url}` · 400 envio inválido · 401 sem sessão · 403 outro perfil ou sem consentimento |
+| `GET /api/ocorrencias` | Cidadão ou gestão | Cidadão: os registros que fez ou confirmou. Gestão: a fila (`?situacao=abertas`, padrão) ou os que tiveram baixa (`?situacao=baixadas`). Não expõe quem registrou. | 200 `{ok, total, ocorrencias[]}` · 400 filtro inválido · 401 · 403 |
+| `GET /api/ocorrencias/{id}` | Gestão, quem registrou ou quem confirmou | Um registro, com situação, localização, fotos (endereços de `/api/fotos`), baixa e confirmações | 200 `{ok, ocorrencia}` · 401 · 404 (também quando o registro é de outra pessoa) |
+| `GET /api/carteira` | Cidadão | Saldo de EcoCoins, saldo de Capibas (simulado), entregas e trocas por Capiba | 200 · 401 · 403 |
+| `GET /api/pontos` | Público | Pontos de descarte e entrega. Filtros: `categoria` (RECICLAVEL, ELETRONICO, OLEO, ENTULHO), `atendente=1`, e `lat`, `lng` e `limite` (1 a 50) para ordenar por distância | 200 `{ok, total, pontos[]}` · 400 filtro inválido |
+| `GET /api/materiais` | Público | Valor de cada material em EcoCoins (exemplo do protótipo) | 200 |
+| `GET /api/resumo` | Gestão de coleta | Registros abertos e removidos e números da reciclagem nos últimos 30 dias | 200 · 401 · 403 |
 | `GET /api/fotos/{nome}` | Quem estiver logado e puder ver aquela foto (dono, gestão) | Devolve a imagem | 200 · 401 · 404 |
 | `GET /api/minha-conta/dados` | Qualquer usuário logado | Baixa todos os dados da própria conta em JSON (LGPD), inclusive trocas por Capiba | 200 · 401 |
 | `GET /api/saude` | Público | Confere o banco e a versão das migrações | 200 `{ok, banco, migracao}` · 503 |
@@ -71,5 +79,5 @@ camadas separadas:
 
 ## Como testar
 
-`npm test` roda os 107 testes das regras contra um Postgres embutido. Com o app no ar,
+`npm test` roda os 110 testes das regras contra um Postgres embutido. Com o app no ar,
 `node scripts/smoke.mjs <url>` confere as rotas, a permissão por perfil e os cabeçalhos num servidor de verdade.

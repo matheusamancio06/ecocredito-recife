@@ -2,6 +2,30 @@ import { revalidatePath } from "next/cache";
 import { getCurrentUser } from "@/lib/auth";
 import { needsConsent } from "@/lib/account";
 import { intakeFlag, intakeReport } from "@/lib/report-intake";
+import { apiError, authenticate, json, serializeReport } from "@/lib/api-json";
+import { listClosedReports, listOpenReports, listReportsByReporter, type Report } from "@/lib/repo";
+
+/**
+ * Lista de registros. O cidadão recebe os que registrou ou confirmou; a gestão de coleta
+ * recebe a fila (`?situacao=abertas`, padrão) ou os que já tiveram baixa (`?situacao=baixadas`).
+ */
+export async function GET(request: Request): Promise<Response> {
+  const auth = await authenticate("CIDADAO", "GESTOR");
+  if ("response" in auth) return auth.response;
+  const { user } = auth;
+
+  let reports: Report[];
+  if (user.role === "CIDADAO") {
+    reports = await listReportsByReporter(user.id);
+  } else {
+    const situacao = new URL(request.url).searchParams.get("situacao") ?? "abertas";
+    if (situacao !== "abertas" && situacao !== "baixadas") {
+      return apiError("Use situacao=abertas ou situacao=baixadas.", 400);
+    }
+    reports = situacao === "abertas" ? await listOpenReports() : await listClosedReports();
+  }
+  return json({ ok: true, total: reports.length, ocorrencias: reports.map(serializeReport) });
+}
 
 /**
  * Envio de registro de entulho. O formulário usa esta rota diretamente, e é ela também

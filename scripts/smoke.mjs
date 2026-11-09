@@ -160,6 +160,42 @@ async function main() {
   check("carteira mostra as Capibas e o que a Capiba compra", wallet.includes("Suas Capibas") && wallet.includes("feirinha") && wallet.includes("VEM"));
   check("carteira não tem catálogo de resgate nem comprovantes", !/Resgatar|comprovante/i.test(wallet));
 
+  section("API de consulta (GET)");
+  const apiAnon = await fetch(`${base}/api/carteira`);
+  check("/api/carteira sem sessão responde 401", apiAnon.status === 401, `status ${apiAnon.status}`);
+  const apiWallet = await citizen.fetch("/api/carteira");
+  const walletJson = await apiWallet.json().catch(() => ({}));
+  check("/api/carteira devolve os saldos da cidadã", apiWallet.status === 200 && typeof walletJson.saldoEcoCoins === "number" && typeof walletJson.saldoCapibas === "number", `status ${apiWallet.status}`);
+  const apiMine = await citizen.fetch("/api/ocorrencias");
+  const mineJson = await apiMine.json().catch(() => ({}));
+  check("/api/ocorrencias lista os registros da cidadã", apiMine.status === 200 && Array.isArray(mineJson.ocorrencias), `status ${apiMine.status}`);
+  check("a lista não expõe quem registrou", !JSON.stringify(mineJson).includes("reporterId"));
+  const firstId = mineJson.ocorrencias?.[0]?.id;
+  if (firstId) {
+    const one = await citizen.fetch(`/api/ocorrencias/${firstId}`);
+    check("/api/ocorrencias/{id} devolve o registro", one.status === 200, `status ${one.status}`);
+  }
+  const missing = await citizen.fetch("/api/ocorrencias/nao-existe");
+  check("registro inexistente responde 404", missing.status === 404, `status ${missing.status}`);
+  const summaryAsCitizen = await citizen.fetch("/api/resumo");
+  check("/api/resumo é proibido para o cidadão", summaryAsCitizen.status === 403, `status ${summaryAsCitizen.status}`);
+  const summaryAsManager = await manager.fetch("/api/resumo");
+  const summaryJson = await summaryAsManager.json().catch(() => ({}));
+  check("/api/resumo devolve os números da gestão", summaryAsManager.status === 200 && typeof summaryJson.coleta?.abertos === "number", `status ${summaryAsManager.status}`);
+  const queueAsManager = await manager.fetch("/api/ocorrencias?situacao=abertas");
+  const queueJson = await queueAsManager.json().catch(() => ({}));
+  check("a gestão lista a fila de abertos", queueAsManager.status === 200 && Array.isArray(queueJson.ocorrencias));
+  const badFilter = await manager.fetch("/api/ocorrencias?situacao=xyz");
+  check("filtro inválido responde 400", badFilter.status === 400, `status ${badFilter.status}`);
+  const pointsRes = await fetch(`${base}/api/pontos?categoria=ENTULHO&lat=-8.05&lng=-34.9&limite=3`);
+  const pointsJson = await pointsRes.json().catch(() => ({}));
+  check("/api/pontos ordena por distância (público)", pointsRes.status === 200 && pointsJson.pontos?.length > 0 && pointsJson.pontos.length <= 3);
+  const badPoints = await fetch(`${base}/api/pontos?categoria=XYZ`);
+  check("categoria inválida responde 400", badPoints.status === 400, `status ${badPoints.status}`);
+  const ratesRes = await fetch(`${base}/api/materiais`);
+  const ratesJson = await ratesRes.json().catch(() => ({}));
+  check("/api/materiais lista os valores (público)", ratesRes.status === 200 && ratesJson.materiais?.length > 0);
+
   // Sem aceitar o aviso de privacidade, registrar leva ao consentimento.
   const beforeConsent = await citizen.fetch("/reportar");
   check(
