@@ -11,7 +11,8 @@
     "typecheck": "tsc --noEmit",
     "db:reset": "node -e \"require('fs').rmSync('.data',{recursive:true,force:true})\"",
     "smoke": "node scripts/smoke.mjs",
-    "db:seed": "tsx scripts/seed-remote.ts"
+    "db:seed": "tsx scripts/seed-remote.ts",
+    "db:export": "tsx scripts/export-sql.ts"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.8",

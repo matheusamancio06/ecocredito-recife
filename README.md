@@ -63,6 +63,11 @@ npm run smoke     # em outro terminal
   O preço dos demais itens em Capibas não é divulgado, então não aparece. A oferta muda: o app (Destaques > Moeda Capiba > feirinha) é a fonte atual. **Não dá para gastar Capibas neste aplicativo**; o gasto é no Conecta Recife. Fontes: [página oficial](https://conecta.recife.pe.gov.br/servico/949), [Prefeitura, parceria com o Sport](https://www2.recife.pe.gov.br/noticias/12/04/2024/sport-vira-parceiro-da-prefeitura-na-moeda-social-capiba), [Diário de Pernambuco, 02/04/2024](https://www.diariodepernambuco.com.br/noticia/vidaurbana/2024/04/conheca-a-moeda-digital-social-lancada-pelo-recife-e-saiba-como-ganhar.html), [Impacta Nordeste, 04/12/2024](https://impactanordeste.com.br/capiba-a-moeda-social-gamificada-de-recife/) e [Blog do Finfa, 30/12/2024](https://blogdofinfa.com.br/2024/12/capiba-da-virada-2025-usuarios-da-moeda-digital-do-recife-podem-concorrer-a-premios.html), que reproduz a nota da Prefeitura sobre o sorteio.
 - Quem não trocou continua com o saldo guardado, sem validade.
 
+## Banco de dados (AV2)
+
+- Modelagem lógica, diagrama e decisões: [`docs/modelagem-banco.md`](docs/modelagem-banco.md).
+- Criação das tabelas: [`database/schema.sql`](database/schema.sql). Dados de demonstração simulados: [`database/seed.sql`](database/seed.sql). Os dois são gerados com `npm run db:export` a partir das migrações do app.
+
 ## Dados reais (Portal de Dados Abertos da Prefeitura do Recife, licença ODbL)
 
 - **94 bairros com polígonos oficiais** (`src/data/bairros.json`): o bairro de cada registro vem de ponto-em-polígono.
