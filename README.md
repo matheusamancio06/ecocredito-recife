@@ -7,6 +7,16 @@ Protótipo acadêmico para o desafio **Gestão digital de resíduos sólidos urb
 
 Não substitui o Conecta Recife/156. Uma versão maior (triagem por equipes, painel de pontos críticos, catálogo de resgate de benefícios, avisos, integração com o 156, análise de foto por IA) foi construída antes e depois **retirada de propósito**, para o app ficar fácil de usar e de explicar. Ela está guardada na pasta `ecocredito-pwa-versao-completa`.
 
+## Rodar
+
+```bash
+npm install
+npm run dev     # http://localhost:3000 (banco embutido, dados fictícios, login simulado)
+npm test        # regras de negócio, EcoCrédito, LGPD, segurança
+```
+
+Só precisa do Node 20 ou mais novo. O banco local é criado sozinho na primeira requisição. Para usar Postgres gerenciado, copie `.env.example` para `.env.local`. Os testes também rodam a cada envio ao GitHub (`.github/workflows/ci.yml`). Arquitetura e endpoints: [`docs/api.md`](docs/api.md).
+
 ## Equipe e papéis (AV2)
 
 Equipe de 3 integrantes, ADS · Uninassau Recife Graças · Prof. Breno Holanda.
