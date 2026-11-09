@@ -15,7 +15,7 @@ Equipe de 3 integrantes, ADS · Uninassau Recife Graças · Prof. Breno Holanda.
 | --- | --- | --- |
 | Matheus Amancio | Líder técnico e desenvolvedor full-stack | Participou de todo o projeto: arquitetura, back-end (rotas e regras), banco de dados (modelagem, scripts), integração com o front-end, publicação e a troca por Moeda Capiba |
 | Rômulo César | Testes / QA | Testes do fluxo completo (registro de entulho, reciclagem e troca por Capiba), conferência dos perfis e das regras, relato de falhas |
-| Cauã Tavares | Front-end e apresentação | Telas e usabilidade no celular, e a apresentação e o pitch da entrega final |
+| Cauã Danemberg | Front-end e apresentação | Telas e usabilidade no celular, e a apresentação e o pitch da entrega final |
 
 ## Perfis (login gov.br simulado no modo demonstração)
 
