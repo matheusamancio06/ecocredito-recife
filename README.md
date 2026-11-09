@@ -34,7 +34,7 @@ npm run smoke     # em outro terminal
 
 | Perfil | O que vê e faz |
 | --- | --- |
-| Cidadão | Três abas: **Registrar entulho** (foto + mapa, inclusive sem internet), **Meus registros** (aberto ou baixado, com antes e depois) e **Reciclar** (saldo, **troca por Moeda Capiba**, QR Code, histórico) |
+| Cidadão | Três abas: **Registrar entulho** (foto + mapa, inclusive sem internet), **Meus registros** (aberto ou baixado, com antes e depois) e **Reciclar** (saldo, **troca por Moeda Capiba**, saldo de Capibas e lista do que a Capiba compra, QR Code, histórico) |
 | Gestão de coleta | Uma tela: resumo de 4 números, mapa e fila dos registros abertos (mais antigos primeiro) com **Dar baixa**, e a lista dos que já tiveram baixa |
 | Operador de ponto | Em cooperativa ou ecoestação: confere o QR Code do cidadão, pesa e credita EcoCoins |
 
@@ -51,6 +51,16 @@ npm run smoke     # em outro terminal
 - Código de uso único (10 caracteres, 120 s, invalidado ao gerar outro; ganha 10 min depois de conferido pelo operador), entrega pesada por operador de ponto com atendente, livro-razão só de acréscimos, limite diário por pessoa, e cada ponto só aceita os materiais que recebe.
 - **Troca por Moeda Capiba**: o cidadão troca EcoCoins por Capibas (100 EcoCoins = 1 Capiba, **taxa de exemplo**; de 1 a 50 por troca, até 10 trocas por hora). A Capiba é emitida pela Prefeitura e vive no app Conecta Recife; por isso o crédito passa por um *gateway* (`src/lib/capiba.ts`). A troca é feita em duas etapas: o débito e o registro (PENDENTE) numa transação que trava a pessoa, e depois o pedido de crédito. Se o crédito falhar, o débito é **estornado uma única vez**. Duas trocas ao mesmo tempo não gastam o mesmo saldo.
 - **A integração é simulada.** Só existe o gateway de demonstração (ativo com `DEMO_MODE=1`): ele devolve um protocolo `SIM-…` e a tela avisa que é simulação. Sem ele, a troca fica indisponível. Creditar Capiba de verdade exige acordo com a Prefeitura e uma API do Conecta Recife, que este protótipo não tem; trocar o gateway não mexe no resto.
+- **Suas Capibas e o que dá para trocar.** A carteira mostra o saldo de Capibas recebidas por aqui (soma das trocas creditadas; simulado) e a lista do que a Capiba real compra na "feirinha" do Conecta Recife (`src/lib/capiba-catalog.ts`). Só consta o que a Prefeitura e a imprensa publicaram, em 2024:
+
+  | Categoria | Itens |
+  |---|---|
+  | Transporte | créditos do VEM, créditos do BikePE, cupom da 99, Uber, LadyDriver |
+  | Compras | vale-compras em empresas parceiras (como o Assaí Atacadista) |
+  | Lazer e eventos | ingressos para espetáculos, passeios de catamarã, camisas e ingressos de jogos do Sport |
+  | Sorteio | Bilhetes da Sorte do Capiba da Virada 2025 (1 bilhete = 10 Capibas) |
+
+  O preço dos demais itens em Capibas não é divulgado, então não aparece. A oferta muda: o app (Destaques > Moeda Capiba > feirinha) é a fonte atual. **Não dá para gastar Capibas neste aplicativo**; o gasto é no Conecta Recife. Fontes: [página oficial](https://conecta.recife.pe.gov.br/servico/949), [Prefeitura, parceria com o Sport](https://www2.recife.pe.gov.br/noticias/12/04/2024/sport-vira-parceiro-da-prefeitura-na-moeda-social-capiba), [Diário de Pernambuco, 02/04/2024](https://www.diariodepernambuco.com.br/noticia/vidaurbana/2024/04/conheca-a-moeda-digital-social-lancada-pelo-recife-e-saiba-como-ganhar.html), [Impacta Nordeste, 04/12/2024](https://impactanordeste.com.br/capiba-a-moeda-social-gamificada-de-recife/) e [Blog do Finfa, 30/12/2024](https://blogdofinfa.com.br/2024/12/capiba-da-virada-2025-usuarios-da-moeda-digital-do-recife-podem-concorrer-a-premios.html), que reproduz a nota da Prefeitura sobre o sorteio.
 - Quem não trocou continua com o saldo guardado, sem validade.
 
 ## Dados reais (Portal de Dados Abertos da Prefeitura do Recife, licença ODbL)
