@@ -7,29 +7,6 @@ Protótipo acadêmico para o desafio **Gestão digital de resíduos sólidos urb
 
 Não substitui o Conecta Recife/156. Uma versão maior (triagem por equipes, painel de pontos críticos, catálogo de resgate de benefícios, avisos, integração com o 156, análise de foto por IA) foi construída antes e depois **retirada de propósito**, para o app ficar fácil de usar e de explicar. Ela está guardada na pasta `ecocredito-pwa-versao-completa`.
 
-## Rodar
-
-```bash
-npm install
-npm run dev       # http://localhost:3000
-npm test          # regras de negócio, entrada do registro, EcoCrédito, LGPD, segurança
-npm run db:reset  # apaga o banco local e as fotos (pare o servidor antes)
-```
-
-Só precisa do Node: o banco é um Postgres embutido (PGlite) em `.data/`, criado e populado na primeira requisição (a primeira leva alguns segundos). Copie `.env.example` para `.env.local` para configurar gov.br e Postgres gerenciado.
-
-O modo demonstração (login simulado + dados fictícios) vem ligado em desenvolvimento e **desligado em produção**; force com `DEMO_MODE=1` ou `DEMO_MODE=0`.
-
-### Teste de fumaça
-
-Com o app já rodando em modo demonstração, `npm run smoke` confere cerca de 56 pontos num servidor de verdade: rotas, cabeçalhos de segurança, permissão por perfil, consentimento e a garantia de que as funções retiradas não voltaram.
-
-```bash
-npm run build
-SESSION_SECRET=... IDENTITY_PEPPER=... DEMO_MODE=1 npm run start
-npm run smoke     # em outro terminal
-```
-
 ## Perfis (login gov.br simulado no modo demonstração)
 
 | Perfil | O que vê e faz |
@@ -98,10 +75,6 @@ npm run smoke     # em outro terminal
 - **Credenciais**: gov.br (órgão público).
 - **LGPD**: controlador, Encarregado de Dados (DPO) e Relatório de Impacto (RIPD) do serviço. Enquanto for protótipo acadêmico, não envie dados reais.
 - Valores de EcoCoins por material e limites de uso são de exemplo (`src/lib/domain.ts`).
-
-## Fora do escopo desta versão (próximos passos)
-
-Retirados para simplificar, e possíveis de retomar a partir da versão completa: triagem por tipo de resíduo e equipes de campo, painel de pontos críticos e cobertura, lista com filtros e CSV, avisos ao cidadão, catálogo de resgate de EcoCoins (a troca por Moeda Capiba cumpre esse papel), taxa de reciclagem contra a tonelagem da Emlurb, integração com o 156/Conecta Recife e análise de foto por IA.
 
 ## Fontes
 
