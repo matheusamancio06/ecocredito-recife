@@ -7,6 +7,16 @@ Protótipo acadêmico para o desafio **Gestão digital de resíduos sólidos urb
 
 Não substitui o Conecta Recife/156. Uma versão maior (triagem por equipes, painel de pontos críticos, catálogo de resgate de benefícios, avisos, integração com o 156, análise de foto por IA) foi construída antes e depois **retirada de propósito**, para o app ficar fácil de usar e de explicar. Ela está guardada na pasta `ecocredito-pwa-versao-completa`.
 
+## Equipe e papéis (AV2)
+
+Equipe de 3 integrantes, ADS · Uninassau Recife Graças · Prof. Breno Holanda.
+
+| Integrante | Papel | Responsabilidades |
+| --- | --- | --- |
+| Matheus Amancio | Líder técnico e desenvolvedor full-stack | Participou de todo o projeto: arquitetura, back-end (rotas e regras), banco de dados (modelagem, scripts), integração com o front-end, publicação e a troca por Moeda Capiba |
+| Rômulo César | Testes / QA | Testes do fluxo completo (registro de entulho, reciclagem e troca por Capiba), conferência dos perfis e das regras, relato de falhas |
+| Cauã Tavares | Front-end e apresentação | Telas e usabilidade no celular, e a apresentação e o pitch da entrega final |
+
 ## Perfis (login gov.br simulado no modo demonstração)
 
 | Perfil | O que vê e faz |
