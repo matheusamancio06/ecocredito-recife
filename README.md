@@ -15,7 +15,7 @@ npm run dev     # http://localhost:3000 (banco embutido, dados fictícios, login
 npm test        # regras de negócio, EcoCrédito, LGPD, segurança
 ```
 
-Só precisa do Node 20 ou mais novo. O banco local é criado sozinho na primeira requisição. Para usar Postgres gerenciado, copie `.env.example` para `.env.local`. Os testes também rodam a cada envio ao GitHub (`.github/workflows/ci.yml`). Arquitetura e endpoints: [`docs/api.md`](docs/api.md).
+Só precisa do Node 20 ou mais novo. O banco local é criado sozinho na primeira requisição. Para usar Postgres gerenciado, copie `.env.example` para `.env.local`. Arquitetura e endpoints: [`docs/api.md`](docs/api.md).
 
 ## Equipe e papéis (AV2)
 
