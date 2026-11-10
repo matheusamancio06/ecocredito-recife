@@ -102,3 +102,7 @@ Equipe de 3 integrantes, ADS · Uninassau Recife Graças · Prof. Breno Holanda.
 - [Moeda Capiba, moeda social digital da Prefeitura do Recife no app Conecta Recife](https://movimentoeconomico.com.br/tecnologia/2024/04/02/conheca-a-capiba-a-moeda-social-digital-criada-no-recife-e-pioneira-no-pais/) (reportagem de abril de 2024; a página oficial e as regras vigentes devem ser conferidas com a Prefeitura).
 - [Solicitar remoção de entulhos](https://conecta.recife.pe.gov.br/servico/245), Emlurb.
 - [Roteiro técnico do Login Único gov.br](https://acesso.gov.br/roteiro-tecnico/iniciarintegracao.html).
+
+## Licença
+
+[MIT](LICENSE).
