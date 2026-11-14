@@ -41,5 +41,20 @@ describe("pontos de descarte e entrega", () => {
     expect(near.every((p) => p.accepts.includes("ENTULHO"))).toBe(true);
     expect(near[0].distanceMeters).toBeLessThanOrEqual(near[1].distanceMeters);
     expect(near[1].distanceMeters).toBeLessThanOrEqual(near[2].distanceMeters);
+      });
+  it("com limit 1 devolve só o ponto mais próximo", async () => {
+    const points = await listPoints();
+    const origin = { lat: -8.0476, lng: -34.877 };
+    const [maisPerto] = nearestPoints(points, origin, "ENTULHO", 3);
+    const near = nearestPoints(points, origin, "ENTULHO", 1);
+    expect(near).toHaveLength(1);
+    expect(near[0].id).toBe(maisPerto.id);
+  });
+
+  it("devolve lista vazia quando nenhum ponto aceita a categoria", async () => {
+    const points = await listPoints();
+    const semEntulho = points.filter((p) => !p.accepts.includes("ENTULHO"));
+    const near = nearestPoints(semEntulho, { lat: -8.0476, lng: -34.877 }, "ENTULHO", 3);
+    expect(near).toEqual([]);
   });
 });
