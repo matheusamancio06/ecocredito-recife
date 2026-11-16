@@ -1,6 +1,6 @@
 # Arquitetura e endpoints
 
-EcoCrédito Recife · Checkpoints 2 e 3 da AV2.
+EcoCrédito Recife · Checkpoint 2 da AV2.
 
 ## Visão geral
 
