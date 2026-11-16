@@ -79,5 +79,5 @@ camadas separadas:
 
 ## Como testar
 
-`npm test` roda os 110 testes das regras contra um Postgres embutido. Com o app no ar,
+`npm test` roda os 117 testes das regras contra um Postgres embutido. Com o app no ar,
 `node scripts/smoke.mjs <url>` confere as rotas, a permissão por perfil e os cabeçalhos num servidor de verdade.
