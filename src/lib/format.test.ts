@@ -6,6 +6,10 @@ describe("formatNumber", () => {
     expect(formatNumber(3582)).toBe("3.582");
     expect(formatNumber(4.5, 1)).toBe("4,5");
   });
+  it("arredonda para o número de casas pedido", () => {
+    expect(formatNumber(4.56, 1)).toBe("4,6");
+    expect(formatNumber(4.44, 1)).toBe("4,4");
+  });
 });
 
 describe("formatDate", () => {
